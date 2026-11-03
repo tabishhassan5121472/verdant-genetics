@@ -1,0 +1,373 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Verdant Genetics — Bred for what's next</title>
+  <meta name="description" content="Verdant is a seed-science studio breeding resilient crops for a hotter, drier, hungrier century.">
+  <meta name="theme-color" content="#050b07">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@500;700;900&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <header class="nav" role="banner">
+    <a class="brand" href="#top" aria-label="Verdant Genetics, back to top">
+      <svg class="brand__mark" viewBox="0 0 32 32" aria-hidden="true">
+        <defs>
+          <linearGradient id="bm" x1="0" y1="0" x2="1" y2="1">
+            <stop offset="0" stop-color="#ffd27a"/><stop offset="1" stop-color="#e2861f"/>
+          </linearGradient>
+        </defs>
+        <path d="M16 3c6 5 9 10 9 15a9 9 0 0 1-18 0c0-5 3-10 9-15z" fill="none" stroke="url(#bm)" stroke-width="2"/>
+        <path d="M16 27V13M16 18c-3-1-5-3-5-6M16 15c3-1 5-3 5-6" fill="none" stroke="url(#bm)" stroke-width="1.6" stroke-linecap="round"/>
+      </svg>
+      <span>Verdant</span>
+    </a>
+    <nav aria-label="Primary">
+      <ul class="nav__links">
+        <li><a href="#seed">Science</a></li>
+        <li><a href="#trials">Trial fields</a></li>
+        <li><a href="#harvest">Harvest</a></li>
+      </ul>
+    </nav>
+    <a class="btn btn--ghost btn--sm" href="#harvest">Partner with us</a>
+  </header>
+
+  <main id="main">
+    <!-- 1. Genesis: particle helix → seed → stars -->
+    <section id="top" class="genesis" aria-labelledby="hero-title">
+      <div class="genesis__sticky">
+        <canvas id="helix" class="genesis__canvas" aria-hidden="true"></canvas>
+        <div class="genesis__vignette" aria-hidden="true"></div>
+
+        <div class="hero" data-hero>
+          <p class="eyebrow"><span class="dot" aria-hidden="true"></span> Seed science studio · Est. 2031</p>
+          <h1 id="hero-title" class="hero__title">
+            <span class="line"><span>Bred for</span></span>
+            <span class="line"><span class="gold">what's next.</span></span>
+          </h1>
+          <p class="hero__lead">We read the genome of every grain, then breed the few that can feed a hotter, drier, hungrier century — without a single shortcut.</p>
+          <div class="hero__cta">
+            <a class="btn btn--gold" href="#seed">Follow the seed</a>
+            <a class="btn btn--ghost" href="#trials">See the trials</a>
+          </div>
+        </div>
+
+        <div class="cap cap--seed" data-cap="seed">
+          <p class="cap__k">Phase I — Selection</p>
+          <p class="cap__t">Four thousand markers.<br>One kernel of intent.</p>
+        </div>
+        <div class="cap cap--stars" data-cap="stars">
+          <p class="cap__k">Phase II — Possibility</p>
+          <p class="cap__t">Every seed holds a<br>universe of futures.</p>
+        </div>
+
+        <div class="scroll-cue" aria-hidden="true"><span>Scroll</span><i></i></div>
+      </div>
+    </section>
+
+    <!-- 2. From a single seed -->
+    <section id="seed" class="sprout" aria-labelledby="sprout-title">
+      <div class="sprout__inner">
+        <div class="sprout__copy">
+          <p class="eyebrow">From a single seed</p>
+          <h2 id="sprout-title" class="h2">Patience,<br>engineered.</h2>
+          <ol class="steps">
+            <li class="step is-active"><span class="step__n">01</span><div><h3>Dormant</h3><p>A sealed archive of 2.4 billion base pairs, waiting for the right signal.</p></div></li>
+            <li class="step"><span class="step__n">02</span><div><h3>Awaken</h3><p>Water, warmth, a crack in the coat. The embryo commits.</p></div></li>
+            <li class="step"><span class="step__n">03</span><div><h3>Anchor</h3><p>Roots tuned to chase moisture 40% deeper than heirloom lines.</p></div></li>
+            <li class="step"><span class="step__n">04</span><div><h3>Reach</h3><p>Leaves unfurl toward a sun that is hotter than it used to be. They're ready.</p></div></li>
+          </ol>
+        </div>
+
+        <div class="sprout__art">
+          <svg id="sprout-svg" viewBox="0 0 400 600" role="img" aria-labelledby="sprout-svg-t">
+            <title id="sprout-svg-t">A seed in soil cracks open; roots spread down and a green sprout grows upward, unfurling its leaves.</title>
+            <defs>
+              <radialGradient id="sp-glow" cx="50%" cy="60%" r="50%">
+                <stop offset="0" stop-color="#ffbf4d" stop-opacity=".55"/>
+                <stop offset=".45" stop-color="#b8681a" stop-opacity=".15"/>
+                <stop offset="1" stop-color="#000" stop-opacity="0"/>
+              </radialGradient>
+              <linearGradient id="sp-soil" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0" stop-color="#3a2614"/>
+                <stop offset=".25" stop-color="#22160b"/>
+                <stop offset="1" stop-color="#0b0704"/>
+              </linearGradient>
+              <linearGradient id="sp-seedL" x1="0" y1="0" x2="1" y2="1">
+                <stop offset="0" stop-color="#f4c56f"/>
+                <stop offset=".55" stop-color="#b8731f"/>
+                <stop offset="1" stop-color="#5e340c"/>
+              </linearGradient>
+              <linearGradient id="sp-seedR" x1="1" y1="0" x2="0" y2="1">
+                <stop offset="0" stop-color="#d99a3c"/>
+                <stop offset=".6" stop-color="#8a4f14"/>
+                <stop offset="1" stop-color="#3f2208"/>
+              </linearGradient>
+              <radialGradient id="sp-core" cx="50%" cy="50%" r="50%">
+                <stop offset="0" stop-color="#fff4c9"/>
+                <stop offset=".5" stop-color="#ffcf5e"/>
+                <stop offset="1" stop-color="#ffb030" stop-opacity="0"/>
+              </radialGradient>
+              <linearGradient id="sp-stem" x1="0" y1="1" x2="0" y2="0">
+                <stop offset="0" stop-color="#cfe9a0"/>
+                <stop offset=".5" stop-color="#7fc35a"/>
+                <stop offset="1" stop-color="#b9f07a"/>
+              </linearGradient>
+              <linearGradient id="sp-leaf" x1="0" y1="0" x2="1" y2="1">
+                <stop offset="0" stop-color="#c8f58b"/>
+                <stop offset=".5" stop-color="#5fae3e"/>
+                <stop offset="1" stop-color="#1f5a24"/>
+              </linearGradient>
+              <linearGradient id="sp-leaf2" x1="1" y1="0" x2="0" y2="1">
+                <stop offset="0" stop-color="#b4ea78"/>
+                <stop offset=".55" stop-color="#4b9a35"/>
+                <stop offset="1" stop-color="#17461b"/>
+              </linearGradient>
+              <linearGradient id="sp-fadeX" x1="0" y1="0" x2="1" y2="0">
+                <stop offset="0" stop-color="#fff" stop-opacity="0"/>
+                <stop offset=".22" stop-color="#fff"/>
+                <stop offset=".78" stop-color="#fff"/>
+                <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+              </linearGradient>
+              <linearGradient id="sp-fadeY" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0" stop-color="#fff"/>
+                <stop offset=".7" stop-color="#fff"/>
+                <stop offset="1" stop-color="#000"/>
+              </linearGradient>
+              <mask id="sp-maskX" maskUnits="userSpaceOnUse" x="0" y="380" width="400" height="220">
+                <rect x="0" y="380" width="400" height="220" fill="url(#sp-fadeX)"/>
+              </mask>
+              <mask id="sp-maskY" maskUnits="userSpaceOnUse" x="0" y="380" width="400" height="220">
+                <rect x="0" y="380" width="400" height="220" fill="url(#sp-fadeY)"/>
+              </mask>
+              <filter id="sp-blur" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="6"/></filter>
+            </defs>
+
+            <circle class="sp-halo" cx="200" cy="330" r="230" fill="url(#sp-glow)"/>
+
+            <!-- soil -->
+            <g mask="url(#sp-maskX)"><g mask="url(#sp-maskY)">
+            <path d="M0 432 C 70 422 130 438 200 430 S 330 424 400 434 V600 H0Z" fill="url(#sp-soil)"/>
+            <path d="M0 432 C 70 422 130 438 200 430 S 330 424 400 434" fill="none" stroke="#6b4a26" stroke-width="1.5" opacity=".7"/>
+            <g class="sp-grit" fill="#5a3d1f" opacity=".7">
+              <circle cx="40" cy="460" r="2"/><circle cx="92" cy="492" r="1.5"/><circle cx="140" cy="455" r="2.4"/>
+              <circle cx="260" cy="470" r="1.8"/><circle cx="320" cy="498" r="2.2"/><circle cx="365" cy="458" r="1.4"/>
+              <circle cx="70" cy="540" r="2.6"/><circle cx="300" cy="548" r="1.6"/><circle cx="182" cy="560" r="1.4"/>
+              <circle cx="232" cy="520" r="2"/><circle cx="120" cy="580" r="1.8"/><circle cx="350" cy="580" r="2.4"/>
+            </g>
+            </g></g>
+
+            <!-- roots -->
+            <g class="sp-roots" fill="none" stroke="#e8d3a6" stroke-linecap="round" opacity=".85">
+              <path class="draw" d="M200 448 C 198 480 206 510 196 548 S 190 585 194 600" stroke-width="2.6"/>
+              <path class="draw" d="M199 462 C 180 478 160 486 142 510 S 118 548 104 566" stroke-width="1.8"/>
+              <path class="draw" d="M201 466 C 222 482 246 492 262 516 S 288 552 302 572" stroke-width="1.8"/>
+              <path class="draw" d="M197 500 C 182 512 170 530 168 556" stroke-width="1.2"/>
+              <path class="draw" d="M203 510 C 220 524 230 540 236 566" stroke-width="1.2"/>
+              <path class="draw" d="M150 500 C 140 498 128 504 118 500" stroke-width="1"/>
+              <path class="draw" d="M256 508 C 268 504 280 510 292 504" stroke-width="1"/>
+            </g>
+
+            <!-- stem -->
+            <path class="sp-stem draw" d="M200 440 C 196 390 212 345 200 300 S 186 228 204 186 S 210 150 206 132" fill="none" stroke="url(#sp-stem)" stroke-width="7" stroke-linecap="round"/>
+
+            <!-- leaves -->
+            <g class="leaf" data-o="199 300" data-r="-70">
+              <path d="M199 300 C 160 296 118 270 98 228 C 140 228 182 254 199 300Z" fill="url(#sp-leaf)"/>
+              <path d="M199 300 C 166 284 134 260 106 233" fill="none" stroke="#e3ffb8" stroke-opacity=".55" stroke-width="1.4"/>
+            </g>
+            <g class="leaf" data-o="201 296" data-r="70">
+              <path d="M201 296 C 240 288 286 268 306 222 C 262 224 220 250 201 296Z" fill="url(#sp-leaf2)"/>
+              <path d="M201 296 C 236 278 268 254 298 228" fill="none" stroke="#e3ffb8" stroke-opacity=".5" stroke-width="1.4"/>
+            </g>
+            <g class="leaf" data-o="203 196" data-r="-60">
+              <path d="M203 196 C 176 192 148 170 140 140 C 170 142 196 160 203 196Z" fill="url(#sp-leaf)"/>
+              <path d="M203 196 C 180 182 160 164 146 145" fill="none" stroke="#e3ffb8" stroke-opacity=".5" stroke-width="1.2"/>
+            </g>
+            <g class="leaf" data-o="205 190" data-r="60">
+              <path d="M205 190 C 232 184 256 164 262 134 C 234 138 210 156 205 190Z" fill="url(#sp-leaf2)"/>
+              <path d="M205 190 C 226 176 244 158 256 140" fill="none" stroke="#e3ffb8" stroke-opacity=".45" stroke-width="1.2"/>
+            </g>
+            <g class="leaf" data-o="206 134" data-r="0">
+              <path d="M206 134 C 196 118 196 96 208 78 C 220 96 218 118 206 134Z" fill="url(#sp-leaf)"/>
+            </g>
+
+            <!-- seed (two halves) -->
+            <circle class="sp-core" cx="200" cy="436" r="26" fill="url(#sp-core)" filter="url(#sp-blur)" opacity="0"/>
+            <g class="seed-l">
+              <path d="M200 398 C 176 404 164 424 168 444 C 172 462 186 472 200 474 L 196 452 L 203 436 L 197 420 Z" fill="url(#sp-seedL)"/>
+              <path d="M188 410 C 178 420 175 434 178 446" fill="none" stroke="#ffe3a8" stroke-opacity=".6" stroke-width="2" stroke-linecap="round"/>
+            </g>
+            <g class="seed-r">
+              <path d="M200 398 C 224 404 236 424 232 444 C 228 462 214 472 200 474 L 196 452 L 203 436 L 197 420 Z" fill="url(#sp-seedR)"/>
+              <path d="M222 418 C 228 430 228 444 222 456" fill="none" stroke="#3a1d05" stroke-opacity=".4" stroke-width="2" stroke-linecap="round"/>
+            </g>
+          </svg>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. Stats -->
+    <section class="stats" aria-labelledby="stats-title">
+      <h2 id="stats-title" class="sr-only">Verdant by the numbers</h2>
+      <ul class="stats__list">
+        <li class="stat">
+          <p class="stat__num"><span data-count="0.01" data-decimals="2">0.01</span><em>%</em></p>
+          <p class="stat__label">of crosses we grow ever leave the greenhouse</p>
+        </li>
+        <li class="stat">
+          <p class="stat__num"><span data-count="212" data-decimals="0">212</span></p>
+          <p class="stat__label">trial plots across six climate bands</p>
+        </li>
+        <li class="stat">
+          <p class="stat__num"><span data-count="38" data-decimals="0">38</span><em>%</em></p>
+          <p class="stat__label">less water per tonne than the regional baseline</p>
+        </li>
+        <li class="stat">
+          <p class="stat__num"><span data-count="4.2" data-decimals="1">4.2</span><em>yrs</em></p>
+          <p class="stat__label">from first cross to farmer's field, down from eleven</p>
+        </li>
+      </ul>
+    </section>
+
+    <!-- 4. Trial fields (horizontal) -->
+    <section id="trials" class="trials" aria-labelledby="trials-title">
+      <div class="trials__head">
+        <p class="eyebrow">Trial fields</p>
+        <h2 id="trials-title" class="h2">One line. Four skies.</h2>
+        <p class="trials__lead">Every candidate is grown under every light we can find — then graded the way a farmer would, from first frost to last heat.</p>
+      </div>
+      <div class="trials__pin">
+        <div class="trials__track" data-track>
+          <article class="panel" data-panel="dawn" aria-label="Dawn trial, plot 07">
+            <div class="panel__art" data-scene="dawn" aria-hidden="true"></div>
+            <div class="panel__grade" aria-hidden="true"></div>
+            <div class="panel__card">
+              <p class="panel__time">05:42 · Dawn</p>
+              <h3>Plot 07 — Highland Loam</h3>
+              <p>Cold-start vigour. Line VG-114 breaks soil two days ahead of its parents after a late frost.</p>
+              <p class="panel__metric"><strong>+2.1 d</strong> emergence lead</p>
+            </div>
+          </article>
+          <article class="panel" data-panel="noon" aria-label="Noon trial, plot 19">
+            <div class="panel__art" data-scene="noon" aria-hidden="true"></div>
+            <div class="panel__grade" aria-hidden="true"></div>
+            <div class="panel__card">
+              <p class="panel__time">12:58 · Noon</p>
+              <h3>Plot 19 — Sun Belt Clay</h3>
+              <p>43°C at canopy. Stomata stay open, leaves stay flat, yield stays stubbornly intact.</p>
+              <p class="panel__metric"><strong>96%</strong> yield held at peak heat</p>
+            </div>
+          </article>
+          <article class="panel" data-panel="dusk" aria-label="Golden hour trial, plot 23">
+            <div class="panel__art" data-scene="dusk" aria-hidden="true"></div>
+            <div class="panel__grade" aria-hidden="true"></div>
+            <div class="panel__card">
+              <p class="panel__time">19:16 · Golden hour</p>
+              <h3>Plot 23 — River Delta Silt</h3>
+              <p>Salt creeping up from the estuary. Our roots simply decline the invitation.</p>
+              <p class="panel__metric"><strong>3×</strong> salinity tolerance</p>
+            </div>
+          </article>
+          <article class="panel" data-panel="night" aria-label="Night trial, plot 31">
+            <div class="panel__art" data-scene="night" aria-hidden="true"></div>
+            <div class="panel__grade" aria-hidden="true"></div>
+            <div class="panel__card">
+              <p class="panel__time">23:40 · Night</p>
+              <h3>Plot 31 — Northern Edge</h3>
+              <p>Short seasons, long nights. Sensors count every degree-day so nothing ripens by guesswork.</p>
+              <p class="panel__metric"><strong>−18%</strong> days to maturity</p>
+            </div>
+          </article>
+        </div>
+        <div class="trials__progress" aria-hidden="true"><i></i></div>
+      </div>
+    </section>
+
+    <!-- 5. Finale -->
+    <section id="harvest" class="finale" aria-labelledby="finale-title">
+      <div class="finale__glow" aria-hidden="true"></div>
+      <div class="finale__inner">
+        <div class="finale__copy">
+          <p class="eyebrow">The yield</p>
+          <h2 id="finale-title" class="finale__title">Harvest,<br><span class="gold">reimagined.</span></h2>
+          <p class="finale__lead">Bring us your hardest field. We'll bring the seed that was bred for it — and the data to prove every kernel.</p>
+          <div class="hero__cta">
+            <button class="btn btn--gold" type="button" data-cta>Start a field trial</button>
+            <a class="btn btn--ghost" href="#seed">Read the science</a>
+          </div>
+          <p class="finale__note" role="status" aria-live="polite" data-cta-note></p>
+        </div>
+        <div class="finale__art">
+          <svg id="corn" viewBox="0 0 400 700" role="img" aria-labelledby="corn-t">
+            <title id="corn-t">A golden ear of corn with its green husk peeled back, kernels appearing row by row.</title>
+            <defs>
+              <linearGradient id="cn-husk" x1="0" y1="0" x2="1" y2="0">
+                <stop offset="0" stop-color="#2d5a22"/>
+                <stop offset=".45" stop-color="#7fae4a"/>
+                <stop offset="1" stop-color="#244a1b"/>
+              </linearGradient>
+              <linearGradient id="cn-husk2" x1="1" y1="0" x2="0" y2="0">
+                <stop offset="0" stop-color="#1c3f16"/>
+                <stop offset=".5" stop-color="#9cc65e"/>
+                <stop offset="1" stop-color="#3b6b29"/>
+              </linearGradient>
+              <linearGradient id="cn-huskback" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0" stop-color="#c8b06a"/>
+                <stop offset="1" stop-color="#5f6a2c"/>
+              </linearGradient>
+              <linearGradient id="cn-cob" x1="0" y1="0" x2="1" y2="0">
+                <stop offset="0" stop-color="#6b3d0c"/>
+                <stop offset=".5" stop-color="#c98a26"/>
+                <stop offset="1" stop-color="#4a2706"/>
+              </linearGradient>
+              <radialGradient id="cn-k" cx="38%" cy="32%" r="75%">
+                <stop offset="0" stop-color="#fff6cf"/>
+                <stop offset=".3" stop-color="#ffd25a"/>
+                <stop offset=".75" stop-color="#e59a1c"/>
+                <stop offset="1" stop-color="#9a5a0a"/>
+              </radialGradient>
+              <linearGradient id="cn-shade" x1="0" y1="0" x2="1" y2="0">
+                <stop offset="0" stop-color="#1b0c00" stop-opacity=".55"/>
+                <stop offset=".3" stop-color="#1b0c00" stop-opacity="0"/>
+                <stop offset=".7" stop-color="#1b0c00" stop-opacity="0"/>
+                <stop offset="1" stop-color="#1b0c00" stop-opacity=".6"/>
+              </linearGradient>
+              <clipPath id="cn-clip"><path id="cn-cobpath" d=""/></clipPath>
+            </defs>
+            <g class="cn-silk" fill="none" stroke="#f3d38a" stroke-linecap="round" opacity=".8"></g>
+            <g class="cn-back">
+              <path d="M200 640 C 120 560 96 420 132 250 C 140 330 160 470 210 600Z" fill="url(#cn-huskback)" opacity=".75"/>
+              <path d="M200 640 C 290 560 312 420 276 250 C 266 330 246 470 196 600Z" fill="url(#cn-huskback)" opacity=".6"/>
+            </g>
+            <path class="cn-cob" d="" fill="url(#cn-cob)"/>
+            <g class="cn-kernels" clip-path="url(#cn-clip)"></g>
+            <path class="cn-shadeover" d="" fill="url(#cn-shade)" pointer-events="none"/>
+            <g class="cn-front">
+              <path d="M200 668 C 118 620 70 520 66 360 C 108 440 150 520 214 590Z" fill="url(#cn-husk)"/>
+              <path d="M84 400 C 110 470 150 540 206 594" fill="none" stroke="#c8ec8c" stroke-opacity=".35" stroke-width="1.5"/>
+              <path d="M200 668 C 286 616 336 512 340 340 C 296 430 250 520 188 592Z" fill="url(#cn-husk2)"/>
+              <path d="M322 380 C 300 458 254 534 194 592" fill="none" stroke="#c8ec8c" stroke-opacity=".3" stroke-width="1.5"/>
+              <path d="M188 690 C 186 660 192 640 200 620 C 208 640 214 660 212 690Z" fill="#3d5d22"/>
+            </g>
+          </svg>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <a href="https://github.com/tabishhassan5121472?tab=repositories" class="footer__back">← More projects</a>
+    <p>Verdant is a fictional brand. Designed &amp; built by <a href="https://github.com/tabishhassan5121472" target="_blank" rel="noopener">Tabish Hassan</a></p>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
